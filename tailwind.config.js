@@ -10,6 +10,7 @@ module.exports = {
   ],
   theme: {
     extend: {
+      
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
@@ -18,4 +19,8 @@ module.exports = {
     },
   },
   plugins: [daisyui],
+  daisyui: {
+    themes: ['light', 'dark', 'cupcake'], // false: only light + dark | true: all themes | array: specific themes like this ["light", "dark", "cupcake"]
+    darkTheme: "dark",
+  }
 };

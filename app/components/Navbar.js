@@ -1,9 +1,9 @@
 // components/Navbar.js
-'use client';
+"use client";
 
-import React, { useState } from 'react';
-import Link from 'next/link';
-import Image from 'next/image';
+import React, { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,14 +17,13 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 relative ">
           <div className="flex items-center">
-            <Link href="/"
-               className="text-blue-600 text-3xl font-bold">
-                <img
-                src='/Mitchtop.png'
+            <Link href="/" className="text-blue-600 text-3xl font-bold">
+              <img
+                src="/Mitchtop.png"
                 width={50}
                 height={50}
-                className=' rounded-full object-cover'
-                ></img>
+                className=" rounded-full object-cover"
+              ></img>
             </Link>
           </div>
           <div className="flex md:hidden">
@@ -54,36 +53,50 @@ const Navbar = () => {
               </svg>
             </button>
           </div>
-          <div className={`${isOpen ? 'block absolute top-full w-full border-solid border-white bg-slate-950 ' : 'hidden'} md:flex md:items-center md:ml-6 md:border-1  md:border-gray-600 md:border-solid md:rounded-full md:px-10 md:shadow-md`}>
+          <div
+            className={`${
+              isOpen
+                ? "block absolute top-full w-full border-solid border-white bg-slate-950 "
+                : "hidden"
+            } md:flex md:items-center md:ml-6 md:border-1  md:border-gray-600 md:border-solid md:rounded-full md:px-10 md:shadow-md`}
+          >
             <div className="flex flex-col md:flex-row md:space-x-4">
-              <Link href="/"
-                 className="text-white md:text-black hover:rounded-full hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                  Home
-                
+              <Link
+                href="/"
+                className="text-white md:text-black hover:rounded-full hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Home
               </Link>
-              <Link href="/about"
-                 className="text-white md:text-black hover:rounded-full hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                  About
-                
+              <Link
+                href="/about"
+                className="text-white md:text-black hover:rounded-full hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                About
               </Link>
-              <Link href="/projects"
-                 className="text-white md:text-black hover:rounded-full hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                  Projects
-                
+              <Link
+                href="/projects"
+                className="text-white md:text-black hover:rounded-full hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Projects
               </Link>
-             
-              <Link href="/contact"
-                 className="text-white md:text-black hover:rounded-full hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                  Contact
-                
+
+              <Link
+                href="/contact"
+                className="text-white md:text-black hover:rounded-full hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Contact
               </Link>
-              <Link href="/blog"
-                 className="text-white md:text-black hover:rounded-full hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
-                  Blog
-                
+              <Link
+                href="/blog"
+                className="text-white md:text-black hover:rounded-full hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                Blog
               </Link>
             </div>
           </div>
+          <div className=" p-0">
+          <input type="checkbox" className="toggle"  />
+            </div>
         </div>
       </div>
     </nav>
