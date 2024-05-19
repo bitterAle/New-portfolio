@@ -24,24 +24,23 @@ const Testy = () => {
            ></Image>
               <a href="#">
                 <h3 className="text-lg font-medium text-gray-900">
-                  {" "}
-                  Front-End Developer
+                  
+                Website Design and Developmen
                 </h3>
               </a>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae dolores, possimus pariatur animi
+              Implement website layouts, user interfaces, and interactive features based on client requirements and design specifications.
               </p>
 
               <a
-                href="#"
+                href="/services"
                 className="group mt-4 inline-flex items-center gap-1 text-sm font-medium text-blue-600"
               >
                 Find out more
                 <span
                   aria-hidden="true"
-                  className="block transition-all group-hover:ms-0.5 rtl:rotate-180"
+                  className="block transition-all group-hover:ms-0.5 "
                 >
                   &rarr;
                 </span>
@@ -61,14 +60,13 @@ const Testy = () => {
 
               <a href="#">
                 <h3 className="text-lg font-medium text-gray-900">
-                  {" "}
-                  Front-End Developer
+                
+                E-commerce Website Development
                 </h3>
               </a>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae dolores, possimus pariatur animi
+              Integrate payment gateways, shipping methods, and other essential e-commerce features.
               </p>
 
               <a
@@ -99,14 +97,13 @@ const Testy = () => {
 
               <a href="#">
                 <h3 className="text-lg font-medium text-gray-900">
-                  {" "}
-                  Front-End Developer
+                  
+                Content Management System (CMS) 
                 </h3>
               </a>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae dolores, possimus pariatur animi
+              Create custom themes, plugins, and modules to extend functionality and meet specific client needs.
               </p>
 
               <a
@@ -137,14 +134,12 @@ const Testy = () => {
 
               <a href="#">
                 <h3 className="text-lg font-medium text-gray-900">
-                  {" "}
-                  Front-End Developer
+                Website Maintenance and Updates
                 </h3>
               </a>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae dolores, possimus pariatur animi
+              Perform regular backups, security checks, and bug fixes
               </p>
 
               <a
@@ -176,14 +171,12 @@ const Testy = () => {
 
               <a href="#">
                 <h3 className="text-lg font-medium text-gray-900">
-                  {" "}
-                  Front-End Developer
+                Search Engine Optimization (SEO)
                 </h3>
               </a>
 
               <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Recusandae dolores, possimus pariatur animi
+              Implement on-page and off-page SEO techniques, such as keyword research, metadata optimization, and link building strategies.
               </p>
 
               <a
